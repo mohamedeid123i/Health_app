@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:untitled4/pages/Welcome_page.dart';
 import 'package:untitled4/pages/doctor_schedule_screen.dart';
 import 'package:untitled4/pages/homepage.dart';
 import 'package:untitled4/utils/colors.dart';
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: MyHomePage(),
+      home: WelcomePage(),
       debugShowCheckedModeBanner: false,
     );
   }

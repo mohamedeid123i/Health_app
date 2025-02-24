@@ -10,6 +10,7 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return (
     Scaffold(
+      backgroundColor: Colors.white,
       body: Padding(padding: const EdgeInsets.all(20),
       child: SingleChildScrollView(
         child: Column(

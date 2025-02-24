@@ -24,12 +24,8 @@ class LoginPage extends StatelessWidget {
             const CustomBottun(width: double.infinity, height: 50, content: "Login", destination: MyHomePage())
           ],
         ),
-      ) ,
       ),
-
-
-
-
+      ),
     )
     );
   }

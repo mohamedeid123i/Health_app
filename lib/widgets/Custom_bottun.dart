@@ -13,8 +13,8 @@ class CustomBottun extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 50,
-      width: 150,
+      height: height,
+      width: width,
       decoration: BoxDecoration(
           color: kPrimaryColor,
           borderRadius: BorderRadius.circular(15)

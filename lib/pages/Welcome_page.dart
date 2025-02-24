@@ -32,14 +32,13 @@ class WelcomePage extends StatelessWidget {
           const SizedBox(height: 30,),
           const Text("Appoint your doctor",style: TextStyle(color: Colors.grey,fontSize: 17,fontWeight: FontWeight.bold),),
           const SizedBox(height: 70,),
-          Row(
+          const Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               CustomBottun(width: 150, height: 50, content: "Sign up", destination: SignUp(),),
               CustomBottun(width: 150, height: 50, content: "Login", destination: LoginPage(),),
             ],
           )
-
         ],
       ),),
     );
